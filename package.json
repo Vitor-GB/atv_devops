@@ -4,7 +4,7 @@
   "description": "##README 1. O README.md criado com sucesso; 2. [Link para códigos do README.MD](https://raullesteves.medium.com/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8);",
   "main": "index.js",
   "type": "module",
- "scripts": {
+  "scripts": {
     "vercel-build": "npx prisma db pull && npx prisma generate && npx prisma validate",
     "build": "npx prisma db pull && npx prisma generate && npx prisma validate",
     "seed": "node ./sql/seed.js",
@@ -35,7 +35,7 @@
     "stream": "^0.0.3",
     "superjest": "^0.1.0",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1",
+    "swagger-ui-express": "^4.6.3",
     "uuid": "^10.0.0",
     "zod": "^3.23.8"
   },
