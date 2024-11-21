@@ -8,8 +8,8 @@ import moduloSchema from "../schemas/moduloSchemaDoc.js";
 
 // Função para definir as URLs do servidor dependendo do ambiente
 const getServersInCorrectOrder = () => {
-    const devUrl = { url: "https://atv-devops-preivxrtf-vitor-gabriels-projects-ee16f9f7.vercel.app" };
-    const prodUrl = { url: "https://atv-devops-preivxrtf-vitor-gabriels-projects-ee16f9f7.vercel.app" };
+    const devUrl = { url: "https://atv-devops.vercel.app/" };
+    const prodUrl = { url: "https://atv-devops.vercel.app/" };
 
     if (process.env.NODE_ENV === "production") return [prodUrl, devUrl];
     else return [devUrl, prodUrl];
